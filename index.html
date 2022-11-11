@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ちびっ子島木彫り館</title>
+    <link rel="stylesheet" href="CSS/slick.css"> 
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="logo">
+                <p>KIBORI</p>
+            </div>
+            <ul>
+                <li>館内</li>
+                <li>概要</li>
+                <li>作品</li>
+                <li>お問い合わせ</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="mainvisual">
+            <div class="slidshow">
+                <img src="./img/img1.JPG">
+                <img src="./img/img2.JPG">
+                <img src="./img/img3.jpg">
+                <img src="./img/img4.JPG">
+                <img src="./img/img5.JPG">
+                <img src="./img/img6.JPG">
+                <img src="./img/img7.JPG">
+            </div>
+            <div class="catchcopy">
+                <p class="copy">屋内の木彫りでギネス世界一</p>
+                <p class="sabcopy">〜ちびっ子島木彫り館 in 高知〜</p>
+            </div>
+        </div>
+                
+        <div class="kannai">
+            <h2>館　　内</h2>
+            <p>ご案内</p>
+             <div class="kannai-container">
+                <div class="kannaibox">
+                    <img src="./img/kannai1.jpg">
+                    <p class="title">木彫り</p><br>
+                    <p class="explan">館内には、4,279体を超える木彫りが並ぶ。（2020年10月ギネス記録）
+                        現在も記録更新中!!</p>
+                </div>
+                <div class="kannaibox">
+                    <img src="./img/kannai2.png">
+                    <p class="title">龍馬街道</p><br>
+                    <p class="explan">屋外にも、全国ゆるキャラが大集合の『ゆるキャラ村』に坂本龍馬の”龍馬街道”など木彫り作品数百体が並びます。!</p>
+                </div> 
+                <div class="kannaibox">
+                    <img src="./img/kannai3.jpg">
+                    <p class="title">歴代総理大臣と歴代横綱</p><br>
+                    <p class="explan">歴代総理大臣と、歴代横綱の木のお面や、有名人のサイン色紙180枚ほどが並ぶ。あなたはどこまでわかるかな!?</p>
+                </div>
+                <div class="kannaibox">
+                    <img src="./img/kannai4.jpg">
+                    <p class="title">懐かしのポスター</p><br>
+                    <p class="explan">昔の映画館に貼り出されたポスター300枚ほどが展示。懐かしのあのスターも。</p>
+                </div>
+            </div>
+        </div>
+        <div class="gaiyo">
+            <h2>ちびっこ島木彫り館</h2>
+            <p>概 要</p>
+              <div class="gaiyo-container">
+                <div class="left">
+                    <img src="./img/yokoya.jpg">
+                </div>
+                <div class="right">
+                    <p class="kancho">館長　横矢年夫</p>
+                    <p class="gaiyo">館内の全ての木彫りは、大きい作品は１本の丸太から、小さい作品はカットされた丸太を使って、チェーンソーで生み出されています。
+                        屋内外を合わせると5,000体を超える木彫り作品をお楽しみください。<br><br>
+                        2016年　開館<br>
+                        2020年　ギネス記録　屋内にある木彫り4,279体<br><br>
+                        ＜アクセス＞　高知市から車で約40分<br>
+                        ＜住　　所＞　高知県土佐市浦の内<br>
+                        ＜営業時間＞　８：３０〜１７：００<br>
+                        ＜入館料＞　　大人　800円　子ども　500円　発券機あり<br></p>
+                </div>
+              </div>
+        </div>
+        <div class="sakuhin">
+            <h2>作　　品</h2>
+                <div class="slider">
+                    <div class="img"><img src="./img/sakuhin1.jpg" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin2.jpg" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin3.jpg" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin4.jpg" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin5.PNG" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin6.jpg" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin7.jpg" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin8.jpg" alt=""></div>
+                    <div class="img"><img src="./img/sakuhin9.jpg" alt=""></div>
+                </div>
+                <script src="slick.min.js"></script>
+                <script>
+                    $(function(){
+                      $('.slider').slick({
+                        autoplay:true,//自動スクロール
+                        autoplaySpeed:0,//自動再生時のスライド切り替えの時間
+                        speed:5000,//スライドが流れるスピード
+                        arrows: false, //左右の矢印を非表示
+                        swipe: false, //スワイプ禁止
+                        slidesToShow: 4, //表示するスライドの数
+                        cssEase: 'linear', //画像切り替えのアニメーション"linerは等速"
+                        pauseOnFocus: false, //フォーカスしても止めない
+                        pauseOnHover: false,  //マウスホバーしても止めない
+                      });
+                    });
+                </script>
+        </div>
+        <div class="otoiawase" >
+            <h2>お問い合わせ</h2>
+            <p>ご返送までお時間がかかる場合があります。ご了承くださいませ。</p>
+                <form method="XXX" action="XXX">
+                    <div class="input">
+                        <p class="item">氏　名</p><input class="space" type="text" name="xxx">
+                    </div>
+                    <div class="input">
+                        <p class="item">メール</p><input class="space" type="text" name="xxx">
+                    </div>
+                    <div class="input">
+                        <p class="item">電話番号</p><input class="space" type="text" name="xxx">
+                    </div>
+                    <div class="input">
+                        <p class="item">内　容</p><textarea name="XXX" rows=5 cols=""></textarea>
+                    </div>
+                    <input class="switch" type="submit" value="送信">
+                </form>               
+        </div>
+    </main>
+
+    <footer>
+        <p>©️2022kiborikan</p>
+
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+    <script>
+        $(document).ready(function () {
+            $('.slidshow').bxSlider({
+                auto: true, //自動スクロール
+                mode: 'fade',
+                speed: 1000, //スライドが流れるスピード
+                pager: false, //ページの非表示
+                controls: false, //前後のコントロールボタン非表示
+            });
+        });
+    </script>
+</body>
+</html>

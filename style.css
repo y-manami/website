@@ -1,0 +1,245 @@
+* {
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+
+.top{
+     display: flex; 
+     justify-content: space-between;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.logo{
+     font-size: 30px;
+     font-family: Inter;
+     line-height:70px; 
+}
+
+header{
+     width:100%;
+     height: 70px;
+}
+
+header ul{
+     display: flex;
+     list-style: none;
+     line-height:70px; 
+}
+
+header ul li{
+     padding-right: 48px; 
+     font-size: 16px;
+}
+
+.bx-wrapper{
+     margin: 0  !important;
+     box-shadow: none  !important;
+     border: 0  !important;
+     background: none !important;
+}
+
+.slidshow img{
+     width: 100%;
+     height: 550px;
+     object-fit: cover;
+}
+
+.mainvisual{
+     position: relative;
+}
+
+.catchcopy{
+     font-size: 50px;
+     color:white;
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     width:100%;
+}
+
+p.copy{
+     font-size: 56px;
+     text-align: center;
+}
+
+p.sabcopy{
+     font-size: 32px;
+     text-align: center;
+}
+
+.kannai{
+     width: 1190px;
+     margin: 0 auto;
+}
+
+.kannai-container{
+     display: flex;
+     justify-content: space-between;
+     padding-top:63px;
+     padding-bottom: 144px;
+     margin: 0 auto;
+}
+
+.kannaibox{
+     width: 246px;
+}
+
+p{
+     font-family: Noto Serif JP;
+     font-size: 16px;
+     text-align: center;
+}
+
+.kannaibox img{
+     width: 246px;
+     height: 187px;
+     object-fit: cover;
+}
+
+p.title{
+     font-size: 16px;
+     padding-bottom: 10px;
+}
+
+p.explan{
+     font-size: 14px;
+     text-align: left;
+}
+
+.gaiyo{
+     width:100%;
+     background-color: #D5D96A;
+}
+
+h2{
+     font-family:Noto Serif;
+     font-size: 48px;
+     text-align: center;
+     padding-top:127px;
+     padding-bottom: 8px;
+} 
+
+.gaiyo-container{
+     display: flex;
+     justify-content: center;
+}
+
+.left{
+     width: 50%;
+     text-align: center;
+}
+
+.left img{
+     width: 340px;
+     height: 408.66px;
+     margin: 0 auto;
+     padding-top: 56px;
+     object-fit: cover;
+}
+
+.right{
+     width: 50%;
+     text-align: left;
+}
+
+p.kancho{
+     font-family:Noto Serif JP;
+     font-size: 32px;
+     text-align: left;
+     padding-top: 105px;
+     padding-bottom: 45px;
+}
+
+p.gaiyo{
+     font-family:Noto Serif JP;
+     font-size: 16px;
+     text-align: left;
+     padding-bottom:117px;
+}
+
+.sakuhin{
+     width: 100%;
+     height: 591px;
+}
+
+.slider{
+     display: flex;
+     align-items: center;
+     margin-top:81px; 
+}
+
+.slider img{
+     width:272px;
+     height: 205px;
+     text-align: center;
+     margin-right: 30px;
+     object-fit: cover;
+}
+
+.otoiawase{
+     height:1013px;
+     background-image:url("../img/haikei.jpg");
+     background-color:transparent;
+     background-size:cover;
+     background-repeat:no-repeat;
+}
+
+
+.input{
+     width: 705.21px;
+     display: flex;
+     margin-bottom: 64px;
+     margin-top: 66px;
+     margin-left: 389px;
+}
+
+.item {
+     width: 100px;
+     color: #F5F5F5;
+     font-size: 20px;
+     font-family: Noto Serif JP;
+     text-align: left;
+}
+
+.space{
+     width: 495px;
+     height: 38px;
+     background-color: #F5F5F5;
+     text-align: right;
+     margin-left: 70px;
+}
+
+textarea {
+     width: 495px;
+     height: 186px;
+     background-color: #F5F5F5;
+     margin-left: 70px;
+}
+
+form{
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+.switch{
+     width: 259.65px;
+     height: 47.53px;
+     color: #F5F5F5;
+     font-family: Noto Serif JP;
+     font-size: 20px;
+     background-color: #333333;
+     text-align: center;
+}
+     
+footer{
+     width: 100%;
+     height: 38.66px;
+     background-color: black;
+     color: white;
+     text-align: center;
+     line-height: 38.66px;
+} 
